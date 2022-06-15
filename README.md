@@ -17,3 +17,9 @@ Fields within a row are separated by semicolons, scores are integers.
 Write a program which reads a source file with a similar structure and for each applicant writes his average mark in three subjects on a separate line corresponding to this applicant to the file with the answer.
 Also calculate the average scores in math, physics and language for all applicants and add the resulting values, separated by a space,
 the last line in the file with the answer.
+
+[Task with Requests.py]
+You need to download the file. It specifies the address of another file that needs to be downloaded using the requests module and count the number of lines in it.
+Use the get function to get the file (it makes sense to call the strip method on the passed parameter to strip whitespace around the edges).
+After receiving the file, you can check the result by accessing the text field. If the result of the script is not accepted, check the url field for correctness. To count the number of lines, split the text using the splitlines method.
+Enter a single number in the response field, or send a file containing a single number.
