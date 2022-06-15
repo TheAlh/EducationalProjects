@@ -23,3 +23,12 @@ You need to download the file. It specifies the address of another file that nee
 Use the get function to get the file (it makes sense to call the strip method on the passed parameter to strip whitespace around the edges).
 After receiving the file, you can check the result by accessing the text field. If the result of the script is not accepted, check the url field for correctness. To count the number of lines, split the text using the splitlines method.
 Enter a single number in the response field, or send a file containing a single number.
+
+[Task with Requests_v2.py]
+There is a set of files, each of which, except for the last one, contains the name of the next file.
+The first word in the text of the last file: "We".
+The first file contains a link - https://stepic.org/media/attachments/course67/3.6.3/699991.txt.
+This is a link to the second file from this set.
+All files are located in the directory at:
+https://stepic.org/media/attachments/course67/3.6.3/
+The content of the last file from the set is the answer to this task.
