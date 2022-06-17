@@ -1,6 +1,7 @@
 # MyFirstProjects
 
-Here will be my work done during the training and maybe something else
+Here will be my work done during the training at https://stepik.org/course/67/
+At the moment, the course is over, so I will upload my other works on other courses to other repositories, and I will leave this one as a reminder of where I started from :D
 
 [File InOut.py]
 Write a program that reads from a file a line corresponding to the text compressed using repetition coding and performs the reverse operation, obtaining the original text.
